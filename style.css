@@ -1,6 +1,7 @@
 body {
   text-align: center;
   font-family: 'Inter', sans-serif;
+  animation: Animacion 1s;
 }
 h1 {
     background-color: black;
@@ -23,4 +24,27 @@ footer {
     justify-content: center;
     color: white;
     justify-items: center;
+}
+article {
+    margin: 100px;
+    padding: 100px;
+}
+@keyframes Animacion {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.border {
+    background-color: whitesmoke;
+    border: whitesmoke 1px solid;
+    border-radius: 10px;
+}
+img {
+    margin: 100px;
+    padding: 100px;
+    height: 300px;
+    width: 300px;
+}
+iframe {
+    margin: 100px;
+    padding: 100px;
 }
